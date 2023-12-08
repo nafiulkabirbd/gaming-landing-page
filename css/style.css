@@ -15,3 +15,46 @@ body {
 }
 
 /* common share style end */
+
+/* header related style start */
+
+header {
+    height: 130px;
+    padding: 45px 200px 0px 200px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* header related style end */
+
+/* nav related style start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* nav related style end */
