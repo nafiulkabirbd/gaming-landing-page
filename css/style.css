@@ -1,0 +1,17 @@
+/* global style start */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* global style end */
+
+/* common share style start */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common share style end */
