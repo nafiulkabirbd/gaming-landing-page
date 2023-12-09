@@ -305,6 +305,106 @@ nav a {
 
 /* games category related style end */
 
+/* footer related style start */
+
+.footer {
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+    padding: 120px 0px 130px 0px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 66px;
+}
+
+.footer-title-box a {
+    text-decoration: none;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 66px;
+}
+
+.facebook {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.twitter {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.instagram {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.linkedin {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.yt {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.apple {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 74px;
+}
+
+.footer-menu-title {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-menu a {
+    text-decoration: none;
+}
+
+.footer-copyright {
+    padding-top: 25px;
+}
+
+.copyright-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* footer related style end */
+
 /* mobile responsive start */
 
 @media screen and (max-width: 576px) {
@@ -421,6 +521,39 @@ nav a {
 
     /* games category related style end */
 
+    /* footer related style start */
+
+    .footer {
+        width: 100%;
+        padding-top: 120px;
+    }
+
+
+    .footer-title-box {
+        flex-direction: column;
+        gap: 2px;
+        padding: 0px;
+    }
+
+
+    .footer-icon {
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 30px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 0px;
+    }
+
+    .footer-copyright {
+        padding-top: 0px;
+    }
+
+    /* footer related style end */
+
 }
 
 /* mobile responsive end */
@@ -520,6 +653,38 @@ nav a {
 
     /* games category related style end */
 
+    /* footer related style start */
+
+    .footer {
+        width: 100%;
+        padding-top: 120px;
+    }
+
+
+    .footer-title-box {
+        flex-direction: column;
+        gap: 2px;
+        padding: 0px;
+    }
+
+
+    .footer-icon {
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 30px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 0px;
+    }
+
+    .footer-copyright {
+        padding-top: 0px;
+    }
+
+    /* footer related style end */
 
 }
 
