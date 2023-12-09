@@ -207,6 +207,54 @@ nav a {
 
 /* online games related style end */
 
+/* games-featured related style start */
+
+.games-featured {
+    margin-top: 120px;
+}
+
+.games-featured-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.play-instantly {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-downloads {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.no-installs {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+}
+
+.games-featured-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+/* games-featured related style end */
+
 /* mobile responsive start */
 
 @media screen and (max-width: 576px) {
@@ -294,6 +342,23 @@ nav a {
 
     /* online games related style end */
 
+    /* games-featured related style start */
+
+    .games-featured-container {
+        flex-direction: column;
+    }
+
+    .games-featured-image {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .games-featured-description {
+        padding-bottom: 24px;
+    }
+
+    /* games-featured related style end */
+
 }
 
 /* mobile responsive end */
@@ -363,6 +428,23 @@ nav a {
     }
 
     /* online games related style end */
+
+    /* games-featured related style start */
+
+    .games-featured-container {
+        flex-direction: column;
+    }
+
+    .games-featured-image {
+        width: 100%;
+        /* padding: 0px 20px; */
+    }
+
+    .games-featured-description {
+        padding-bottom: 24px;
+    }
+
+    /* games-featured related style end */
 
 }
 
