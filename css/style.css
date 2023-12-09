@@ -57,4 +57,64 @@ nav a {
     font-weight: 500;
 }
 
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.youtube {
+    color: red;
+    font-size: 25px;
+}
+
+.tiktok {
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
 /* nav related style end */
+
+/* mobile responsive start */
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 200px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .nav-content {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .nav-icon {
+        margin-top: 10px;
+    }
+
+}
+
+/* mobile responsive end */
+
+/* tablet responsive start */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 45px 20px 0px 20px;
+    }
+}
+
+
+/* tablet responsive end */
